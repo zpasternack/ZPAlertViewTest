@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A204DAB513DB4DC8009A1530 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A204DAB413DB4DC8009A1530 /* UIKit.framework */; };
+		A204DAB713DB4DC8009A1530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A204DAB613DB4DC8009A1530 /* Foundation.framework */; };
+		A204DAB913DB4DC8009A1530 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A204DAB813DB4DC8009A1530 /* CoreGraphics.framework */; };
+		A204DABF13DB4DC8009A1530 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A204DABD13DB4DC8009A1530 /* InfoPlist.strings */; };
+		A204DAC213DB4DC8009A1530 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A204DAC113DB4DC8009A1530 /* main.m */; };
+		A204DAC513DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A204DAC413DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.m */; };
+		A204DAC813DB4DC8009A1530 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A204DAC613DB4DC8009A1530 /* MainWindow.xib */; };
+		A204DACB13DB4DC8009A1530 /* ZPAlertViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A204DACA13DB4DC8009A1530 /* ZPAlertViewTestViewController.m */; };
+		A204DACE13DB4DC8009A1530 /* ZPAlertViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A204DACC13DB4DC8009A1530 /* ZPAlertViewTestViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A204DAB013DB4DC8009A1530 /* ZPAlertViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPAlertViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A204DAB413DB4DC8009A1530 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A204DAB613DB4DC8009A1530 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A204DAB813DB4DC8009A1530 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A204DABC13DB4DC8009A1530 /* ZPAlertViewTest-Info.plist */ = {isa = PBXFileReference; path = "ZPAlertViewTest-Info.plist"; sourceTree = "<group>"; };
+		A204DABE13DB4DC8009A1530 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A204DAC013DB4DC8009A1530 /* ZPAlertViewTest-Prefix.pch */ = {isa = PBXFileReference; path = "ZPAlertViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		A204DAC113DB4DC8009A1530 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A204DAC313DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.h */ = {isa = PBXFileReference; path = ZPAlertViewTestAppDelegate.h; sourceTree = "<group>"; };
+		A204DAC413DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAlertViewTestAppDelegate.m; sourceTree = "<group>"; };
+		A204DAC713DB4DC8009A1530 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A204DAC913DB4DC8009A1530 /* ZPAlertViewTestViewController.h */ = {isa = PBXFileReference; path = ZPAlertViewTestViewController.h; sourceTree = "<group>"; };
+		A204DACA13DB4DC8009A1530 /* ZPAlertViewTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAlertViewTestViewController.m; sourceTree = "<group>"; };
+		A204DACD13DB4DC8009A1530 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZPAlertViewTestViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A204DAAD13DB4DC7009A1530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A204DAB513DB4DC8009A1530 /* UIKit.framework in Frameworks */,
+				A204DAB713DB4DC8009A1530 /* Foundation.framework in Frameworks */,
+				A204DAB913DB4DC8009A1530 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A204DAA513DB4DC7009A1530 = {
+			isa = PBXGroup;
+			children = (
+				A204DABA13DB4DC8009A1530 /* ZPAlertViewTest */,
+				A204DAB313DB4DC8009A1530 /* Frameworks */,
+				A204DAB113DB4DC8009A1530 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A204DAB113DB4DC8009A1530 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A204DAB013DB4DC8009A1530 /* ZPAlertViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A204DAB313DB4DC8009A1530 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A204DAB413DB4DC8009A1530 /* UIKit.framework */,
+				A204DAB613DB4DC8009A1530 /* Foundation.framework */,
+				A204DAB813DB4DC8009A1530 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A204DABA13DB4DC8009A1530 /* ZPAlertViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				A204DAC313DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.h */,
+				A204DAC413DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.m */,
+				A204DAC613DB4DC8009A1530 /* MainWindow.xib */,
+				A204DAC913DB4DC8009A1530 /* ZPAlertViewTestViewController.h */,
+				A204DACA13DB4DC8009A1530 /* ZPAlertViewTestViewController.m */,
+				A204DACC13DB4DC8009A1530 /* ZPAlertViewTestViewController.xib */,
+				A204DABB13DB4DC8009A1530 /* Supporting Files */,
+			);
+			path = ZPAlertViewTest;
+			sourceTree = "<group>";
+		};
+		A204DABB13DB4DC8009A1530 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A204DABC13DB4DC8009A1530 /* ZPAlertViewTest-Info.plist */,
+				A204DABD13DB4DC8009A1530 /* InfoPlist.strings */,
+				A204DAC013DB4DC8009A1530 /* ZPAlertViewTest-Prefix.pch */,
+				A204DAC113DB4DC8009A1530 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A204DAAF13DB4DC7009A1530 /* ZPAlertViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A204DAD113DB4DC8009A1530 /* Build configuration list for PBXNativeTarget "ZPAlertViewTest" */;
+			buildPhases = (
+				A204DAAC13DB4DC7009A1530 /* Sources */,
+				A204DAAD13DB4DC7009A1530 /* Frameworks */,
+				A204DAAE13DB4DC7009A1530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPAlertViewTest;
+			productName = ZPAlertViewTest;
+			productReference = A204DAB013DB4DC8009A1530 /* ZPAlertViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A204DAA713DB4DC7009A1530 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "WildPackets, Inc.";
+			};
+			buildConfigurationList = A204DAAA13DB4DC7009A1530 /* Build configuration list for PBXProject "ZPAlertViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A204DAA513DB4DC7009A1530;
+			productRefGroup = A204DAB113DB4DC8009A1530 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A204DAAF13DB4DC7009A1530 /* ZPAlertViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A204DAAE13DB4DC7009A1530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A204DABF13DB4DC8009A1530 /* InfoPlist.strings in Resources */,
+				A204DAC813DB4DC8009A1530 /* MainWindow.xib in Resources */,
+				A204DACE13DB4DC8009A1530 /* ZPAlertViewTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A204DAAC13DB4DC7009A1530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A204DAC213DB4DC8009A1530 /* main.m in Sources */,
+				A204DAC513DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.m in Sources */,
+				A204DACB13DB4DC8009A1530 /* ZPAlertViewTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A204DABD13DB4DC8009A1530 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A204DABE13DB4DC8009A1530 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A204DAC613DB4DC8009A1530 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A204DAC713DB4DC8009A1530 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A204DACC13DB4DC8009A1530 /* ZPAlertViewTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A204DACD13DB4DC8009A1530 /* en */,
+			);
+			name = ZPAlertViewTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A204DACF13DB4DC8009A1530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A204DAD013DB4DC8009A1530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A204DAD213DB4DC8009A1530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZPAlertViewTest/ZPAlertViewTest-Prefix.pch";
+				INFOPLIST_FILE = "ZPAlertViewTest/ZPAlertViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A204DAD313DB4DC8009A1530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZPAlertViewTest/ZPAlertViewTest-Prefix.pch";
+				INFOPLIST_FILE = "ZPAlertViewTest/ZPAlertViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A204DAAA13DB4DC7009A1530 /* Build configuration list for PBXProject "ZPAlertViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A204DACF13DB4DC8009A1530 /* Debug */,
+				A204DAD013DB4DC8009A1530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A204DAD113DB4DC8009A1530 /* Build configuration list for PBXNativeTarget "ZPAlertViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A204DAD213DB4DC8009A1530 /* Debug */,
+				A204DAD313DB4DC8009A1530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A204DAA713DB4DC7009A1530 /* Project object */;
+}
