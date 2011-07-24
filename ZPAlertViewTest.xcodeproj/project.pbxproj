@@ -16,6 +16,7 @@
 		A204DAC813DB4DC8009A1530 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A204DAC613DB4DC8009A1530 /* MainWindow.xib */; };
 		A204DACB13DB4DC8009A1530 /* ZPAlertViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A204DACA13DB4DC8009A1530 /* ZPAlertViewTestViewController.m */; };
 		A204DACE13DB4DC8009A1530 /* ZPAlertViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A204DACC13DB4DC8009A1530 /* ZPAlertViewTestViewController.xib */; };
+		A204DAD713DB4F4F009A1530 /* ZPAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A204DAD613DB4F4F009A1530 /* ZPAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		A204DAB413DB4DC8009A1530 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A204DAB613DB4DC8009A1530 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A204DAB813DB4DC8009A1530 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A204DABC13DB4DC8009A1530 /* ZPAlertViewTest-Info.plist */ = {isa = PBXFileReference; path = "ZPAlertViewTest-Info.plist"; sourceTree = "<group>"; };
+		A204DABC13DB4DC8009A1530 /* ZPAlertViewTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZPAlertViewTest-Info.plist"; sourceTree = "<group>"; };
 		A204DABE13DB4DC8009A1530 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A204DAC013DB4DC8009A1530 /* ZPAlertViewTest-Prefix.pch */ = {isa = PBXFileReference; path = "ZPAlertViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		A204DAC013DB4DC8009A1530 /* ZPAlertViewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZPAlertViewTest-Prefix.pch"; sourceTree = "<group>"; };
 		A204DAC113DB4DC8009A1530 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A204DAC313DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.h */ = {isa = PBXFileReference; path = ZPAlertViewTestAppDelegate.h; sourceTree = "<group>"; };
+		A204DAC313DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPAlertViewTestAppDelegate.h; sourceTree = "<group>"; };
 		A204DAC413DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAlertViewTestAppDelegate.m; sourceTree = "<group>"; };
 		A204DAC713DB4DC8009A1530 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		A204DAC913DB4DC8009A1530 /* ZPAlertViewTestViewController.h */ = {isa = PBXFileReference; path = ZPAlertViewTestViewController.h; sourceTree = "<group>"; };
+		A204DAC913DB4DC8009A1530 /* ZPAlertViewTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPAlertViewTestViewController.h; sourceTree = "<group>"; };
 		A204DACA13DB4DC8009A1530 /* ZPAlertViewTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAlertViewTestViewController.m; sourceTree = "<group>"; };
 		A204DACD13DB4DC8009A1530 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZPAlertViewTestViewController.xib; sourceTree = "<group>"; };
+		A204DAD513DB4F4F009A1530 /* ZPAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZPAlertView.h; path = ZPAlertView/ZPAlertView.h; sourceTree = "<group>"; };
+		A204DAD613DB4F4F009A1530 /* ZPAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZPAlertView.m; path = ZPAlertView/ZPAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +55,7 @@
 		A204DAA513DB4DC7009A1530 = {
 			isa = PBXGroup;
 			children = (
+				A204DAD413DB4E48009A1530 /* ZAPAlertView */,
 				A204DABA13DB4DC8009A1530 /* ZPAlertViewTest */,
 				A204DAB313DB4DC8009A1530 /* Frameworks */,
 				A204DAB113DB4DC8009A1530 /* Products */,
@@ -81,9 +85,9 @@
 			children = (
 				A204DAC313DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.h */,
 				A204DAC413DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.m */,
-				A204DAC613DB4DC8009A1530 /* MainWindow.xib */,
 				A204DAC913DB4DC8009A1530 /* ZPAlertViewTestViewController.h */,
 				A204DACA13DB4DC8009A1530 /* ZPAlertViewTestViewController.m */,
+				A204DAC613DB4DC8009A1530 /* MainWindow.xib */,
 				A204DACC13DB4DC8009A1530 /* ZPAlertViewTestViewController.xib */,
 				A204DABB13DB4DC8009A1530 /* Supporting Files */,
 			);
@@ -99,6 +103,15 @@
 				A204DAC113DB4DC8009A1530 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A204DAD413DB4E48009A1530 /* ZAPAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				A204DAD513DB4F4F009A1530 /* ZPAlertView.h */,
+				A204DAD613DB4F4F009A1530 /* ZPAlertView.m */,
+			);
+			name = ZAPAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +180,7 @@
 				A204DAC213DB4DC8009A1530 /* main.m in Sources */,
 				A204DAC513DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.m in Sources */,
 				A204DACB13DB4DC8009A1530 /* ZPAlertViewTestViewController.m in Sources */,
+				A204DAD713DB4F4F009A1530 /* ZPAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +254,9 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPAlertViewTest/ZPAlertViewTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../../ZPAlertView;
 				INFOPLIST_FILE = "ZPAlertViewTest/ZPAlertViewTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -253,7 +269,9 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPAlertViewTest/ZPAlertViewTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../../ZPAlertView;
 				INFOPLIST_FILE = "ZPAlertViewTest/ZPAlertViewTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -279,6 +297,7 @@
 				A204DAD313DB4DC8009A1530 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
