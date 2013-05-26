@@ -3,7 +3,7 @@
 //  ZPAlertViewTest
 //
 //  Created by Zacharias Pasternack on 7/23/11.
-//  Copyright 2011 Fat Apps, LLC. All rights reserved.
+//  Copyright 2011-2013 Fat Apps, LLC. All rights reserved.
 //
 
 
@@ -14,13 +14,13 @@
 @implementation ZPAlertViewTestViewController
 
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+- (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 
-- (IBAction)doAlertView:(id)sender
+- (IBAction) doAlertView:(id)sender
 {
 	enum {
 		ButtonIndexCancel = 0,
@@ -83,7 +83,7 @@
 }
 
 
-- (IBAction)doAlertWithTextField:(id)sender
+- (IBAction) doAlertWithTextField:(id)sender
 {
 	ZPAlertView *alert = [[ZPAlertView alloc] initWithTitle:@"Hello!" 
 													message:@"Please enter your name:\n\n\n"

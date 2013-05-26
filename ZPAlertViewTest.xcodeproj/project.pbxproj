@@ -17,6 +17,7 @@
 		A204DACB13DB4DC8009A1530 /* ZPAlertViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A204DACA13DB4DC8009A1530 /* ZPAlertViewTestViewController.m */; };
 		A204DACE13DB4DC8009A1530 /* ZPAlertViewTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A204DACC13DB4DC8009A1530 /* ZPAlertViewTestViewController.xib */; };
 		A204DAD713DB4F4F009A1530 /* ZPAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A204DAD613DB4F4F009A1530 /* ZPAlertView.m */; };
+		A230032A1751D20A0042B495 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = A23003291751D20A0042B495 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A204DACD13DB4DC8009A1530 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZPAlertViewTestViewController.xib; sourceTree = "<group>"; };
 		A204DAD513DB4F4F009A1530 /* ZPAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZPAlertView.h; path = ZPAlertView/ZPAlertView.h; sourceTree = "<group>"; };
 		A204DAD613DB4F4F009A1530 /* ZPAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZPAlertView.m; path = ZPAlertView/ZPAlertView.m; sourceTree = "<group>"; };
+		A23003291751D20A0042B495 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		A204DAA513DB4DC7009A1530 = {
 			isa = PBXGroup;
 			children = (
+				A23003291751D20A0042B495 /* Readme.md */,
 				A204DAD413DB4E48009A1530 /* ZAPAlertView */,
 				A204DABA13DB4DC8009A1530 /* ZPAlertViewTest */,
 				A204DAB313DB4DC8009A1530 /* Frameworks */,
@@ -83,10 +86,10 @@
 		A204DABA13DB4DC8009A1530 /* ZPAlertViewTest */ = {
 			isa = PBXGroup;
 			children = (
-				A204DAC313DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.h */,
-				A204DAC413DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.m */,
 				A204DAC913DB4DC8009A1530 /* ZPAlertViewTestViewController.h */,
 				A204DACA13DB4DC8009A1530 /* ZPAlertViewTestViewController.m */,
+				A204DAC313DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.h */,
+				A204DAC413DB4DC8009A1530 /* ZPAlertViewTestAppDelegate.m */,
 				A204DAC613DB4DC8009A1530 /* MainWindow.xib */,
 				A204DACC13DB4DC8009A1530 /* ZPAlertViewTestViewController.xib */,
 				A204DABB13DB4DC8009A1530 /* Supporting Files */,
@@ -167,6 +170,7 @@
 				A204DABF13DB4DC8009A1530 /* InfoPlist.strings in Resources */,
 				A204DAC813DB4DC8009A1530 /* MainWindow.xib in Resources */,
 				A204DACE13DB4DC8009A1530 /* ZPAlertViewTestViewController.xib in Resources */,
+				A230032A1751D20A0042B495 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
