@@ -3,7 +3,7 @@
 //  AlertWithCompletion
 //
 //  Created by Zacharias Pasternack on 10/11/10.
-//  Copyright 2010-2013 Fat Apps, LLC. All rights reserved.
+//  Copyright 2010-2015 Fat Apps, LLC. All rights reserved.
 //
 
 
@@ -13,31 +13,10 @@
 @implementation ZPAlertView
 
 
-@synthesize willPresentBlock;
-@synthesize didPresentBlock;
-@synthesize didCancelBlock;
-@synthesize clickedButtonBlock;
-@synthesize willDismissBlock;
-@synthesize didDismissBlock;
-
-
 - (void) show
 {
 	self.delegate = self;
 	[super show];
-}
-
-
-- (void) dealloc
-{
-	[willPresentBlock release];
-	[didPresentBlock release];
-	[didCancelBlock release];
-	[clickedButtonBlock release];
-	[willDismissBlock release];
-	[didDismissBlock release];
-	
-	[super dealloc];
 }
 
 

@@ -3,7 +3,7 @@
 //  ZPAlertViewTest
 //
 //  Created by Zacharias Pasternack on 7/23/11.
-//  Copyright 2011-2013 Fat Apps, LLC. All rights reserved.
+//  Copyright 2011-2015 Fat Apps, LLC. All rights reserved.
 //
 
 
@@ -79,39 +79,30 @@
 		}
 	};
 	[anAlert show];
-	[anAlert release];
 }
 
 
 - (IBAction) doAlertWithTextField:(id)sender
 {
-	ZPAlertView *alert = [[ZPAlertView alloc] initWithTitle:@"Hello!" 
-													message:@"Please enter your name:\n\n\n"
+	ZPAlertView* alert = [[ZPAlertView alloc] initWithTitle:@"Hello!"
+													message:@"Please enter your name:"
 												   delegate:nil 
 										  cancelButtonTitle:nil
 										  otherButtonTitles:@"OK", nil];
 	
-	UITextField *nameEntryField = [[UITextField alloc] initWithFrame:CGRectMake(12, 90, 260, 25)];
-	nameEntryField.backgroundColor = [UIColor whiteColor];
-	nameEntryField.keyboardType = UIKeyboardTypeAlphabet;
-	nameEntryField.keyboardAppearance = UIKeyboardAppearanceAlert;
-	nameEntryField.autocorrectionType = UITextAutocorrectionTypeNo;
-	nameEntryField.clearButtonMode = UITextFieldViewModeWhileEditing;
-	[alert addSubview:nameEntryField];
-	[nameEntryField becomeFirstResponder];
-	[nameEntryField release];
-	
+	alert.alertViewStyle = UIAlertViewStylePlainTextInput;
+
+	__weak ZPAlertView* weakAlert = alert;
 	alert.willDismissBlock = ^(NSInteger buttonIndex) {
-		UIAlertView *anAlert = [[UIAlertView alloc] initWithTitle:@"Greetings!"
+		UITextField* nameEntryField = [weakAlert textFieldAtIndex:0];
+		UIAlertView* anAlert = [[UIAlertView alloc] initWithTitle:@"Greetings!"
 														  message:[NSString stringWithFormat:@"Hello, %@", nameEntryField.text]
 														 delegate:nil
 												cancelButtonTitle:nil
 												otherButtonTitles:@"OK", nil];
 		[anAlert show];
-		[anAlert release];
 	};
 	[alert show];
-	[alert release];
 	
 }
 @end

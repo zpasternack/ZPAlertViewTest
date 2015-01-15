@@ -18,12 +18,6 @@
 @synthesize viewController;
 
 
-- (void) dealloc
-{
-	[window release];
-	[viewController release];
-    [super dealloc];
-}
 
 
 - (BOOL) application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions

@@ -12,7 +12,7 @@
 
 @interface ZPAlertViewTestAppDelegate : NSObject <UIApplicationDelegate>
 
-@property (nonatomic, retain) IBOutlet UIWindow* window;
-@property (nonatomic, retain) IBOutlet ZPAlertViewTestViewController* viewController;
+@property (nonatomic, strong) IBOutlet UIWindow* window;
+@property (nonatomic, strong) IBOutlet ZPAlertViewTestViewController* viewController;
 
 @end

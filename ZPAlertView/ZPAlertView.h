@@ -3,11 +3,11 @@
 //  AlertWithCompletion
 //
 //  Created by Zacharias Pasternack on 10/11/10.
-//  Copyright 2010-2013 Fat Apps, LLC. All rights reserved.
+//  Copyright 2010-2015 Fat Apps, LLC. All rights reserved.
 //
 
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 
 typedef void (^WillPresentBlock)(void);
